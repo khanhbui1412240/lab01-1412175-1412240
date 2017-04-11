@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>MyBlog.me About</title>
-      <link rel="stylesheet" href="css/styles.css">
+
     <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/styles.css">
   </head>
   <body style="position: relative; min-height: 100%; top: 0px;">
     <div class="container top">
@@ -58,6 +59,45 @@
    <div class="blog-main">
      <div class="blog-row blog-margin-bottom">
          <h1>About</h1>
+          <p>Nhóm gồm 2 thành viên:</p>
+          <p>Nhóm chúng tôi là "Chim cút nướng". Gồm 2 thành viên:</p>
+        <div class="row">
+          <div class="col-sm-4 col-xs-6">
+            <div class="photo">
+              <img src="image/image2.jpg" alt="">
+            </div>
+            <p style="text-align:center;">Trần Hiệp - 1412175</p>
+          </div>
+          <div class="col-sm-2">
+
+          </div>
+          <div class="col-sm-4  col-xs-6">
+
+            <div class="photo">
+              <img src="image/image3.jpg" alt="">
+            </div>
+            <p style="text-align:center;">Bùi Đình Khánh - 1412240</p>
+          </div>
+
+        </div>
+        <div class="row">
+
+          <div class="col-sm-6">
+            <p>Địa chỉ:Trường đại học khoa học tự nhiên TPHCM 227, Nguyễn Văn Cừ, Quận 5, TP Hồ Chí Minh </p>
+            <div id="map" style="line-height=10px;width:400px;height:300px;background:yellow;"class="relative"></div>
+          </div>
+
+        </div>
+
+
+        </div>
+
+
+        </div>
+      </div>
+
+
+
 
      </div>
    </div>
@@ -93,6 +133,15 @@
           document.getElementsByClassName("blog-main")[0].style.marginLeft = "15px";
       })
     });
+    function myMap() {
+      var mapOptions = {
+    center: new google.maps.LatLng(10.762828, 106.681984),
+    zoom: 15,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+}
+    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+    }
     </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxlJZlU3TW_MGYFbe5VbjZxRXWZsAZ6qg&callback=myMap"></script>
   </body>
 </html>
