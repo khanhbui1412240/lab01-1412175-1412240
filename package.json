@@ -1,0 +1,19 @@
+{
+  "name": "websitebai1",
+  "version": "0.0.1",
+  "description": "bai tap website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khanhbui1412240/lab01-1412175-1412240.git"
+  },
+  "author": "khanh bui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khanhbui1412240/lab01-1412175-1412240/issues"
+  },
+  "homepage": "https://github.com/khanhbui1412240/lab01-1412175-1412240#readme"
+}
