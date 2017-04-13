@@ -4,6 +4,7 @@
   "description": "bai tap website",
   "main": "index.js",
   "scripts": {
+    "start":"nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/khanhbui1412240/lab01-1412175-1412240/issues"
   },
-  "homepage": "https://github.com/khanhbui1412240/lab01-1412175-1412240#readme"
+  "homepage": "https://github.com/khanhbui1412240/lab01-1412175-1412240#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
 }
